@@ -1,0 +1,67 @@
+.container {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 100px;
+    width: 25%;
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#dis {
+    margin-top: 50px;
+    height: 80px;
+    width: 360px;
+    font-size: 24pt;
+    margin-left: 40px;
+    padding-left: 20px;
+}
+
+#btn{
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    margin-left:28px;
+    border: none;
+    border-radius: 100%;
+}
+#btn-ac{
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    margin-left:28px;
+    border: none;
+    border-radius: 100%;
+    background-color:red;
+}
+#btn-ac:hover{
+    background-color: rgb(216, 5, 5);
+}
+#btn-del{
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    margin-left:28px;
+    border: none;
+    border-radius: 100%;
+    background-color: orange;
+}
+#btn-del:hover{
+    background-color: rgb(211, 140, 8);
+}
+#btn-ans{
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    margin-left:28px;
+    border: none;
+    border-radius: 100%;
+    background-color: rgb(48, 189, 48);
+}
+#btn-ans:hover{
+    background-color: green;
+}

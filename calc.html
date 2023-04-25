@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./icons8-calculator-48.png">
+    <title>Calculator</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <form name="cals">
+
+            <input type="text" name="answer" id="dis" />
+            <br>
+            <br>
+            <input type="button" id="btn" value="/" onclick="cals.answer.value+='/'">
+            <input type="button" id="btn" value="*" onclick="cals.answer.value+='*'">
+            <input type="button" id="btn" value="-" onclick="cals.answer.value+='-'">
+            <input type="button" id="btn" value="+" onclick="cals.answer.value+='+'">
+            <br>
+            <input type="button" id="btn" value="7" onclick="cals.answer.value+='7'">
+            <input type="button" id="btn" value="8" onclick="cals.answer.value+='8'">
+            <input type="button" id="btn" value="9" onclick="cals.answer.value+='9'">
+            <input type="button" id="btn-ac" value="AC" onclick="cals.answer.value=' '">
+
+            <br>
+            <input type="button" id="btn" value="4" onclick="cals.answer.value+='4'">
+            <input type="button" id="btn" value="5" onclick="cals.answer.value+='5'">
+            <input type="button" id="btn" value="6" onclick="cals.answer.value+='6'">
+            <input type="button" id="btn-del" value="del" onclick="cals.answer.value= cals.answer.value.slice(0, -1)">
+
+            <br>
+            <input type="button" id="btn" value="1" onclick="cals.answer.value+='1'">
+            <input type="button" id="btn" value="2" onclick="cals.answer.value+='2'">
+            <input type="button" id="btn" value="3" onclick="cals.answer.value+='3'">
+            <input type="button" id="btn-ans" value="Ans" onclick="cals.answer.value=eval(cals.answer.value)">
+
+            <br>
+            <input type="button" id="btn" value="%" onclick="cals.answer.value+='%'">
+            <input type="button" id="btn" value="0" onclick="cals.answer.value+='0'">
+            <input type="button" id="btn" value="." onclick="cals.answer.value+='.'">
+            <input type="button" id="btn" value="  ">
+        </form>
+    </div>
+</body>
+<script>
+
+</script>
+
+</html>
