@@ -1,0 +1,5 @@
+Hello!
+    this is simple calculator MDAS(Multiplication,Division,Addition,Subtraction) operation
+    =>Used only HTML,CSS,JAVASCRIPT
+    =>External CSS has been Used
+    =>
