@@ -19,8 +19,8 @@
 
 #btn{
     padding: 10px;
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     margin-top: 20px;
     margin-left:28px;
     border: none;
@@ -82,22 +82,20 @@
     }
     
 }
-@media only screen and (max-width:600px) {
+@media only screen and (min-width:600px) {
 
     .container{
-        margin-left: 2px;
+        margin-left: 10px;
         margin-top: 10px;
-        width: 350px;
-        height: 600px;
+        width: 410px;
     }
     #btn,#btn-ans,#btn-del,#btn-ac{
-        height:50px ;
-        width: 50px;
-        margin-top: 30px;
-        margin-left: 25px;
+        height:60px ;
+        width: 60px;
+        margin-top: 40px;
     }
     #dis{
-        width: 240px;
+        width: 300px;
     }
     
 }
